@@ -1,0 +1,199 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(rgb(27, 27, 27), rgb(46, 46, 46), rgb(27, 27, 27));
+}
+.img-ej{
+  width: 300px;
+  /* border: 1px solid red; */
+}
+.img-ej img {
+  width: 100%;
+}
+
+.iphone-container {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid blue; */
+  position: relative;
+}
+.iphone{
+  width: 238px;
+  height: 486px;
+  background: linear-gradient(45deg, #2d2b2c, #81807b);
+  position: relative;
+  left: 300px;
+  top: 100px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: inset 7px 2px 3px rgba(0, 0, 0, .2);
+}
+.camera-container {
+  width: 70px;
+  height: 70px;
+  border-radius: 13px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, .2);
+  background: linear-gradient(58deg, #272526 0%, #4d494b 40%, #908e8c 54%, #908e8c 99%);
+}
+
+.camara-shadow{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  z-index: 10;
+  opacity: .1;
+  border-radius: 13px;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, .2);
+  background: linear-gradient(58deg, #343233 0%, #343233 40%, #908e8c 54%, #908e8c 99%);
+}
+
+.camera {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #0e1110;
+  margin: 2px;
+  border: 2px solid #bdbbb9;
+  border-bottom:1px solid rgba(80, 80, 80, .2) ;
+  border-left: 1px solid rgba(90, 90, 90, .2) ;
+}
+
+.camera.c1 {
+  position: relative;
+  top: 5px;
+  right: -3px;
+  box-shadow: inset 1px 1px 3px rgba(225, 229, 241, 0.3);
+}
+.camera.c2 {
+  position: relative;
+  top: 8px;
+  right: -3px;
+  box-shadow: inset 1px 1px 3px rgba(225, 229, 241, 0.3);
+}
+.camera.c3 {
+  position: relative;
+  right: -34px;
+  top: -38px;
+  box-shadow: inset 1px 1px 3px rgba(225, 229, 241, 0.3);
+}
+
+
+.flash {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, #f2dfd0 20%, #6D7055 100%);
+  margin: 2px;
+  position: relative;
+  right: -41px;
+  top: -83px;
+}
+.mic {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, #1b120b 20%, #141520 100%);
+  margin: 2px;
+  position: relative;
+  right: -45px;
+  top: -48px;
+}
+
+
+.lente{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1b18cf;
+  margin: 2px;
+  filter: blur(3px);
+  right: -5px;
+  top: 5px;
+  position: relative;
+}
+
+.volumen {
+  width: 4px;
+  height: 35px;
+  position: absolute;
+  top: 200px;
+  left: 298px;
+  z-index: 0;
+  background-color: #3d3c3d;
+  cursor: pointer;  
+}
+
+
+.marca-lateral{
+  width: 6px;
+  height: 2px;
+  position: absolute;
+  top: 145px;
+  left: 300px;
+  z-index: 10;
+  background-color: #313030;
+}
+
+.marca-superior{
+  width: 2px;
+  height: 6px;
+  position: absolute;
+  top: 100px;
+  left: 344px;
+  z-index: 10;
+  background-color: #313030;
+}
+.marca-inferior{
+  width: 2px;
+  height: 6px;
+  position: absolute;
+  top: 580px;
+  left: 344px;
+  z-index: 10;
+  background-color: #000000;
+}
+
+.marca-lateral-abajo {
+  width: 6px;
+  height: 2px;
+  position: absolute;
+  top: 540px;
+  left: 300px;
+  z-index: 10;
+  background-color: #000000;
+}
+.sombra{
+  width: 240px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  right:0px;
+  top: 510px;
+  border-radius:50% ;
+  filter: blur(5px);
+}
+
+.destello{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: absolute;
+  top: 110px;
+  left: 340px;
+  border-radius: 50%;
+  filter: blur(15px);
+  opacity: .8;
+  visibility: hidden;
+}
+.logo-apple img{
+  width: 50px;
+  position: absolute;
+  top: 310px;
+  left: 400px;
+}
